@@ -427,6 +427,116 @@ img {
   background: #1a2332;
 }
 
+/* ===== Built With ===== */
+.built-with__story {
+  max-width: 760px;
+}
+
+.built-with__heading {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #f0f6fc;
+}
+
+.built-with__heading:first-child {
+  margin-top: 0;
+}
+
+.built-with__text {
+  color: #c9d1d9;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+.built-with__list {
+  color: #c9d1d9;
+  line-height: 1.8;
+  margin: 1rem 0 1.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+.built-with__list li {
+  margin-bottom: 0.35rem;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.comparison-card {
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.comparison-card--highlight {
+  border-color: #238636;
+  background: #0d1f0d;
+}
+
+.comparison-card__label {
+  font-size: 0.875rem;
+  color: #8b949e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.comparison-card__value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f0f6fc;
+  margin-bottom: 0.75rem;
+}
+
+.comparison-card--highlight .comparison-card__value {
+  color: #3fb950;
+}
+
+.comparison-card__detail {
+  font-size: 0.9375rem;
+  color: #8b949e;
+  line-height: 1.6;
+}
+
+.built-with__ratio {
+  font-size: 1.125rem;
+  color: #c9d1d9;
+  text-align: center;
+  margin: 1rem 0 2rem;
+}
+
+.built-with__ratio strong {
+  color: #3fb950;
+  font-size: 1.5rem;
+}
+
+.built-with__meta {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #21262d;
+  color: #484f58;
+  font-size: 0.875rem;
+}
+
+.built-with__meta a {
+  color: #58a6ff;
+}
+
+@media (max-width: 600px) {
+  .comparison-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== Contact ===== */
 .contact__links {
   display: flex;
